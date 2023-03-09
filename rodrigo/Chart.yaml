@@ -1,6 +1,7 @@
 apiVersion: v2
 name: rodrigo
-description: A Helm chart for Kubernetes
+description: A JS thing for Kubernetes
+icon: https://cdn-icons-png.flaticon.com/512/5968/5968292.png
 
 # A chart can be either an 'application' or a 'library' chart.
 #
