@@ -50,7 +50,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: rodrigo-theia.grupo1.jackexperts.io
+    - host: rodrigo-theia.grupo1.jackexperts.com
       paths:
         - path: /
           pathType: ImplementationSpecific
