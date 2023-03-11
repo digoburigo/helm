@@ -1,7 +1,7 @@
 apiVersion: v2
 name: theia-rodrigo
 description: A Helm chart for Theia
-
+icon: https://pt.wikipedia.org/wiki/Notepad%2B%2B#/media/Ficheiro:Notepad++_Logo.svg
 # A chart can be either an 'application' or a 'library' chart.
 #
 # Application charts are a collection of templates that can be packaged into versioned archives
@@ -21,4 +21,4 @@ version: 0.1.0
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: "1.0.0-SNAPSHOT"
+appVersion: ""

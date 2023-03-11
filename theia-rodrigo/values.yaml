@@ -1,8 +1,6 @@
-# Default values for theia-rodrigo.
+# Default values for theia.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
-# *.grupo1.jackexperts.com
 
 replicaCount: 1
 
@@ -10,7 +8,7 @@ image:
   repository: rishikoy/theiaide-full
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "1.0.0-SNAPSHOT"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -87,7 +85,7 @@ affinity: {}
 livenessProbe:
   httpGet:
     path: /
-    port: http
+    port: http 
 
 readinessProbe:
   httpGet:
@@ -95,7 +93,8 @@ readinessProbe:
     port: http
 
 configMap:
-  enabled: false
   name: ""
-  data: ""
- 
+  create: true
+  data:
+    script01.sh: |
+      echo configMap
